@@ -4,11 +4,11 @@ function saudacao(nome) {
 
     if (!nome || nome.trim() === '') {
 
-        throw new Error('Nome nÃ£o pode estar vazio');
+        throw new Error('Nome nao pode estar vazio');
 
     }
 
-    return `OlÃ¡, ${nome}! Bem-vindo ao nosso sistema CI/CD!`;
+    return `Ola, ${nome}! Bem-vindo ao nosso sistema CI/CD!`;
 
 }
 
@@ -30,13 +30,13 @@ function calcular(a, b, operacao) {
 
         case 'divisao':
 
-            if (b === 0) throw new Error('DivisÃ£o por zero nÃ£o Ã© permitida');
+            if (b === 0) throw new Error('Divisao por zero nao e permitida');
 
             return a / b;
 
         default:
 
-            throw new Error('OperaÃ§Ã£o nÃ£o suportada');
+            throw new Error('Operacao nao suportada');
 
     }
 
